@@ -38,3 +38,7 @@ def reduce_to_total(array,starting_point)
 #  end
 #  p sum
 end
+
+def reduce_to_all_true(source_array)
+
+end  
