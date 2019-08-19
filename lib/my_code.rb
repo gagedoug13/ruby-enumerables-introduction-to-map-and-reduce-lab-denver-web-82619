@@ -40,7 +40,7 @@ def reduce_to_total(array,starting_point)
 end
 
 def reduce_to_all_true(source_array)
-  if source_array.include?(false)
-    return false
-  end  
+  if source_array.include?(true)
+    return source_array[2]
+  end
 end
