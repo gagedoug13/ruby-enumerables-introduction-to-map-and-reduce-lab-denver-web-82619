@@ -40,9 +40,9 @@ def reduce_to_total(array,starting_point)
 end
 
 def reduce_to_all_true(source_array)
-  if source_array.include?(true)
-    return true
-  else
+  if source_array.include?(false)
     return false
+  else
+    return true
   end
 end
