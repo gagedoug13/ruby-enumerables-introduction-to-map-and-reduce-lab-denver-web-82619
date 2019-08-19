@@ -27,8 +27,8 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array,starting_point)
-  var i = 0
-  var sum = 0
+  i = 0
+  sum = 0
   if starting_point != nil
     i = starting_point
   end
