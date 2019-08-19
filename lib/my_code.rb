@@ -41,6 +41,8 @@ end
 
 def reduce_to_all_true(source_array)
   if source_array.include?(true)
+    return true
+  else
     return source_array[2]
   end
 end
