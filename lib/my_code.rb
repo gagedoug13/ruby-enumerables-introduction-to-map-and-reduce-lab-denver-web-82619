@@ -27,14 +27,14 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array,starting_point)
-  i = 0
-  sum = 0
-  if starting_point != nil
-    i = starting_point
-  end
-  while i < array.length
-    sum += array[i]
-    i++
-  end
-  p sum
+  #i = 0
+  #sum = 0
+  #if starting_point != nil
+    #i = starting_point
+  #end
+#  while i < array.length
+#    sum += array[i]
+#    i++
+#  end
+#  p sum
 end
